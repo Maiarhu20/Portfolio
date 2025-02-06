@@ -1,0 +1,210 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(to right, #FFE6E6, #FFCCE5); */
+    background: linear-gradient(to right, #FF99CC, #D46A6A); 
+    color: #333333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to right, #FF99CC, #D46A6A); /* Soft Pink to Dusty Rose */
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B399D4 !important; /* Violet */
+}
+
+/* Hero Section */
+.hero-section {
+    /* background: linear-gradient(to right, #FF99CC, #D46A6A);  */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: #333333;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: float 3s ease-in-out infinite;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.hero-section .btn-light {
+    background-color: #100e0e; /* Violet */
+    /* border-color: #B399D4; */
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-section .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+    transform: scale(1.1);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 60px ;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.1);
+}
+
+#about h2 {
+    color: #101010; /* Dusty Rose */
+    /* text-decoration: overline; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 5px solid #FF99CC; /* Soft Pink */
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.5);
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to right, #FF99CC, #D46A6A); /* Soft Pink to Dusty Rose */
+    color: white;
+    padding: 60px 0;
+}
+
+#skills h2 {
+    color: white;
+}
+
+.skill-item i {
+    color: #B399D4; /* Violet */
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item i:hover {
+    transform: rotate(360deg);
+}
+
+.progress {
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #B399D4; /* Violet */
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 60px ;
+    border-radius: 20px;
+    /* margin: 20px; */
+    box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.1);
+}
+
+#projects h2 {
+    color: #D46A6A; /* Dusty Rose */
+}
+
+.project-card {
+    background-color: white;
+    margin: 20px;
+    border: 1px solid #FF99CC; /* Soft Pink */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(255, 105, 180, 0.3);
+}
+
+.project-card .btn-light {
+    background-color: #B399D4; /* Violet */
+    border-color: #B399D4;
+    color: white;
+}
+
+.project-card .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #FF99CC, #D46A6A);
+    color: white;
+    margin: 50px;
+    padding: 60px ;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .btn-light {
+    background-color: #B399D4; /* Violet */
+    border-color: #B399D4;
+    color: white;
+}
+
+#contact .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}
+
+
+
+/* Back to Top Button */
+#back-to-top {
+    background-color: #B399D4; /* Violet */
+    border-color: #B399D4;
+    color: white;
+}
+
+#back-to-top:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}

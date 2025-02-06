@@ -1,0 +1,202 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #A5C0DD, #6C9BCF); /* Light Blue to Soft Blue */
+    color: #333333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to right, #6C9BCF, #4A7CAC); /* Soft Blue to Darker Blue */
+    box-shadow: 0 4px 10px rgba(108, 155, 207, 0.3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #68B2A0 !important; /* Soft Teal */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #6C9BCF, #4A7CAC); /* Soft Blue to Darker Blue */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: float 3s ease-in-out infinite;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.hero-section .btn-light {
+    background-color: #68B2A0; /* Soft Teal */
+    border-color: #68B2A0;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-section .btn-light:hover {
+    background-color: #4A7CAC; /* Darker Blue */
+    border-color: #4A7CAC;
+    transform: scale(1.1);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 20px rgba(108, 155, 207, 0.1);
+}
+
+#about h2 {
+    color: #6C9BCF; /* Soft Blue */
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 5px solid #6C9BCF; /* Soft Blue */
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(108, 155, 207, 0.3);
+}
+
+/* Skills Section */
+#skills {
+    background: linear-gradient(to right, #6C9BCF, #4A7CAC); /* Soft Blue to Darker Blue */
+    color: white;
+    padding: 60px 0;
+}
+
+#skills h2 {
+    color: white;
+}
+
+.skill-item i {
+    color: #68B2A0; /* Soft Teal */
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item i:hover {
+    transform: rotate(360deg);
+}
+
+.progress {
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #68B2A0; /* Soft Teal */
+}
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 20px rgba(108, 155, 207, 0.1);
+}
+
+#projects h2 {
+    color: #6C9BCF; /* Soft Blue */
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #6C9BCF; /* Soft Blue */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(108, 155, 207, 0.3);
+}
+
+.project-card .btn-light {
+    background-color: #68B2A0; /* Soft Teal */
+    border-color: #68B2A0;
+    color: white;
+}
+
+.project-card .btn-light:hover {
+    background-color: #4A7CAC; /* Darker Blue */
+    border-color: #4A7CAC;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #6C9BCF, #4A7CAC); /* Soft Blue to Darker Blue */
+    color: white;
+    margin: 100px;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .btn-light {
+    background-color: #68B2A0; /* Soft Teal */
+    border-color: #68B2A0;
+    color: white;
+}
+
+#contact .btn-light:hover {
+    background-color: #4A7CAC; /* Darker Blue */
+    border-color: #4A7CAC;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    background-color: #68B2A0; /* Soft Teal */
+    border-color: #68B2A0;
+    color: white;
+}
+
+#back-to-top:hover {
+    background-color: #4A7CAC; /* Darker Blue */
+    border-color: #4A7CAC;
+}

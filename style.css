@@ -1,0 +1,228 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #000000, #FFB6C1); 
+    color: #333333; /* Dark Gray */
+}
+/* background-color: #FFE6E6; */
+
+/* Navigation Bar */
+.navbar {
+    background-color: #000000; /* Black */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important; /* Soft Pink */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Soft Pink */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF66B2 !important; /* Bright Pink */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #000000, #FFB6C1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: float 3s ease-in-out infinite;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.hero-section .btn-light {
+    background-color: #FFB6C1; /* Soft Pink */
+    border-color: #FFB6C1;
+    color: #333333; /* Dark Gray */
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-section .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+    transform: scale(1.1);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    /* margin: 20px; */
+    box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.1);
+}
+
+#about h2 {
+    color: #000000; /* Black */
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+} */
+
+/* .profile-image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 5px solid #FFB6C1;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.3);
+} */
+
+/* Skills Section */
+#skills {
+    /* background: linear-gradient(to right, #000000, #FFB6C1); */
+    /* color: white; */
+    padding: 60px ;
+    background: white !important;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 50px;
+    /* box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.1); */
+}
+
+#skills h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#skills h5 {
+    color: #000000;
+    /* font-weight: bold; */
+    /* font-size: 3rem; */
+}
+
+.skill-item i {
+    color: #FFB6C1; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item i:hover {
+    transform: rotate(360deg);
+}
+
+/* .progress {
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+} */
+
+/* .progress-bar {
+    background-color: #FFB6C1; 
+} */
+
+/* Projects Section */
+#projects {
+    background-color: white;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.1);
+}
+
+#projects h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #FFB6C1; /* Soft Pink */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.3);
+}
+
+.project-card .btn-light {
+    background-color: #FFB6C1; /* Soft Pink */
+    border-color: #FFB6C1;
+    color: #333333; /* Dark Gray */
+}
+
+.project-card .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #000000, #FFB6C1); 
+    /* color: white;
+    margin: 100px;
+    padding: 60px 0; */
+    /* background-color: white; */
+    padding: 60px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 0px 4px 20px rgba(255, 182, 193, 0.1);
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .btn-light {
+    background-color: #FFB6C1; /* Soft Pink */
+    border-color: #FFB6C1;
+    color: #333333; /* Dark Gray */
+}
+
+#contact .btn-light:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}
+
+/* Back to Top Button */
+#back-to-top {
+    background-color: #FFB6C1; /* Soft Pink */
+    border-color: #FFB6C1;
+    color: #333333; /* Dark Gray */
+}
+
+#back-to-top:hover {
+    background-color: #FF66B2; /* Bright Pink */
+    border-color: #FF66B2;
+}
