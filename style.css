@@ -217,9 +217,9 @@ body {
 
 /* Back to Top Button */
 #back-to-top {
-    background-color: #FFB6C1; /* Soft Pink */
-    border-color: #FFB6C1;
-    color: #333333; /* Dark Gray */
+    background-color: #333333; /* Soft Pink */
+    border-color:  #333333;
+    color: #FFB6C1; /* Dark Gray */
 }
 
 #back-to-top:hover {
